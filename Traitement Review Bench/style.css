@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+   
+}
+
+h1 p {
+    overflow: hidden;
+}
+
+h1 span {
+    display: block;
+    transform: translateY(120px);
+    position: relative;
+    overflow: hidden;
+    animation: 0.9s titleAnimation cubic-bezier(0, 0.55, 0.45, 1) forwards;
+    letter-spacing: 3px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    
+    
+}
+
+@keyframes titleAnimation {
+    to {
+        transform: initial;
+    }
+}
+
+.button{
+    background-color: DarkKhaki;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 3rem;
+    border-radius: 1rem;
+    
+}
+div{
+    text-align: center;
+}
+
+ p {
+    text-align: center; 
+}

@@ -1,0 +1,48 @@
+.joli {
+    position: relative;
+    background-color: #FFC;
+    padding: 2rem;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .joli::before {
+    content: "";
+    position : absolute;
+    z-index  : -1;
+    bottom   : 15px;
+    right    : 5px;
+    width    : 50%;
+    top      : 80%;
+    max-width: 200px;
+    box-shadow: 0px 13px 10px black;
+    transform: rotate(4deg);
+  }
+  label {
+    margin:4rem ;
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    bottom   : 30px;
+    top      : 25%;
+}
+
+input,
+label {
+    margin:4rem ;
+    bottom   : 30px;
+    top      : 20%;
+}  
+
+.button{
+    background-color: DarkKhaki;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 3rem;
+    border-radius: 1rem;
+    
+}
